@@ -1,0 +1,3622 @@
+
+<!DOCTYPE HTML><section id="cat" class="normative">
+   <h2>Gegevensdefinitie</h2>
+   <!--MIMCM-Gebouw-basismodel-1.0-0-20211117-20211117-152035 imvertor 1.65.2-->
+   <section id="">
+      <h3>Objecttypen   </h3>
+      <a class="anchor" id="graph_EAID_2D5A157E_92F2_4068_8E08_EF5AE89FB74E"></a><a class="anchor" id="global_class_Gebouw_Registratiegegevens"></a><section id="global_class_Gebouw_Registratiegegevens">
+         <h4>   Registratiegegevens</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Registratiegegevens</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>NEN3610</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h5>Overzicht attributen  </h5>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 10%;"></colgroup>
+            <colgroup style="width: 10%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Attribuutnaam</th>
+                  <th>Definitie</th>
+                  <th>Formaat</th>
+                  <th>Card</th>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Registratiegegevens_beginGeldigheid">begin­Geldigheid</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     Datum
+                     </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Registratiegegevens_eindGeldigheid">eind­Geldigheid</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     Datum
+                     </td>
+                  <td>0 .. 1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Registratiegegevens_eindRegistratie">eind­Registratie</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     Datum­Tijd
+                     </td>
+                  <td>0 .. 1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Registratiegegevens_tijdstipRegistratie">tijdstip­Registratie</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     Datum­Tijd
+                     </td>
+                  <td>1</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+         <h5>Overzicht relaties  </h5>
+         
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Rol naam met kardinaliteiten</th>
+                  <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     Registratiegegevens
+                     [ 1 ]
+                     
+                     <a class="link" href="#detail_association_Gebouw_Registratiegegevens_bronentiteit">primaire­Bron: bronentiteit</a>
+                     
+                     
+                     <a class="link" href="#global_class_Gebouw_Bronentiteit">Bronentiteit</a>
+                     
+                     [ 1 ]
+                     </td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td>
+                     Registratiegegevens
+                     [ 1 ]
+                     
+                     <a class="link" href="#detail_association_Gebouw_Registratiegegevens_overheidsorganisatie">toegeschreven­Aan: overheidsorganisatie</a>
+                     
+                     
+                     <a class="link" href="#global_class_Gebouw_Overheidsorganisatie">Overheidsorganisatie</a>
+                     
+                     [ 1 ]
+                     </td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td>
+                     
+                     <a class="link" href="#global_class_Gebouw_Object">Object</a>
+                     
+                     [ 1 ]
+                     
+                     <a class="link" href="#detail_association_Gebouw_Object_registratiegegevens">geregistreerd­Met: registratiegegevens</a>
+                     
+                     Registratiegegevens
+                     [ 1 ]
+                     </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         </section>
+      <a class="anchor" id="graph_EAID_59DCB00C_0EB3_4657_83EF_23A8514CE9F9"></a><a class="anchor" id="global_class_Gebouw_Overheidsorganisatie"></a><section id="global_class_Gebouw_Overheidsorganisatie">
+         <h4>   Overheidsorganisatie</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Overheidsorganisatie</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h5>Overzicht attributen  </h5>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 10%;"></colgroup>
+            <colgroup style="width: 10%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Attribuutnaam</th>
+                  <th>Definitie</th>
+                  <th>Formaat</th>
+                  <th>Card</th>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Overheidsorganisatie_code">code</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     CHARACTERSTRING
+                     </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Overheidsorganisatie_organisatieIdentificatienummer">organisatie-identificatienummer</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     CHARACTERSTRING
+                     </td>
+                  <td>0 .. 1</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+         <h5>Overzicht relaties  </h5>
+         
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Rol naam met kardinaliteiten</th>
+                  <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     
+                     <a class="link" href="#global_class_Gebouw_Registratiegegevens">Registratiegegevens</a>
+                     
+                     [ 1 ]
+                     
+                     <a class="link" href="#detail_association_Gebouw_Registratiegegevens_overheidsorganisatie">toegeschreven­Aan: overheidsorganisatie</a>
+                     
+                     Overheidsorganisatie
+                     [ 1 ]
+                     </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         </section>
+      <a class="anchor" id="graph_EAID_5F189BC1_9DB1_4258_A103_CDFBDB213937"></a><a class="anchor" id="global_class_Gebouw_FunctioneleRuimte"></a><section id="global_class_Gebouw_FunctioneleRuimte">
+         <h4>   Functionele­Ruimte</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Functionele­Ruimte</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+               </tr>
+            </tbody>
+         </table>
+         </section>
+      <a class="anchor" id="graph_EAID_678C5751_BFDF_425b_9E27_527FA26E46D0"></a><a class="anchor" id="global_class_Gebouw_Bronhouder"></a><section id="global_class_Gebouw_Bronhouder">
+         <h4>   Bronhouder</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Bronhouder</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h5>Overzicht relaties  </h5>
+         
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Rol naam met kardinaliteiten</th>
+                  <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     Bronhouder
+                     is specialisatie van
+                     
+                     <a class="link" href="#global_class_Gebouw_Overheidsorganisatie">Overheidsorganisatie</a>
+                     
+                     </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         </section>
+      <a class="anchor" id="graph_EAID_7B3279C7_963A_47eb_A8EC_462E79F21F33"></a><a class="anchor" id="global_class_Gebouw_Brondocument"></a><section id="global_class_Gebouw_Brondocument">
+         <h4>   Brondocument</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Brondocument</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h5>Overzicht attributen  </h5>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 10%;"></colgroup>
+            <colgroup style="width: 10%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Attribuutnaam</th>
+                  <th>Definitie</th>
+                  <th>Formaat</th>
+                  <th>Card</th>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Brondocument_documentdatum">documentdatum</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     Datum
+                     </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Brondocument_documentnummer">documentnummer</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     CHARACTERSTRING
+                     </td>
+                  <td>1</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+         <h5>Overzicht relaties  </h5>
+         
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Rol naam met kardinaliteiten</th>
+                  <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     Brondocument
+                     is specialisatie van
+                     
+                     <a class="link" href="#global_class_Gebouw_Bronentiteit">Bronentiteit</a>
+                     
+                     </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         </section>
+      <a class="anchor" id="graph_EAID_90693289_BA65_43ec_8C3A_4A772FD9CB96"></a><a class="anchor" id="global_class_Gebouw_Bronentiteit"></a><section id="global_class_Gebouw_Bronentiteit">
+         <h4>   Bronentiteit</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Bronentiteit</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h5>Overzicht relaties  </h5>
+         
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Rol naam met kardinaliteiten</th>
+                  <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     
+                     <a class="link" href="#global_class_Gebouw_Registratiegegevens">Registratiegegevens</a>
+                     
+                     [ 1 ]
+                     
+                     <a class="link" href="#detail_association_Gebouw_Registratiegegevens_bronentiteit">primaire­Bron: bronentiteit</a>
+                     
+                     Bronentiteit
+                     [ 1 ]
+                     </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         </section>
+      <a class="anchor" id="graph_EAID_9DF2B8F4_10D4_4103_AD10_23984358D0D8"></a><a class="anchor" id="global_class_Gebouw_Gebouw"></a><section id="global_class_Gebouw_Gebouw">
+         <h4>   Gebouw</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Gebouw</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>SOR</td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>Gebaseerd op definitie “pand” in artikel 1 Wet basisregistratie adressen en gebouwen
+                     en de INSPIRE richtlijn</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h5>Overzicht attributen  </h5>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 10%;"></colgroup>
+            <colgroup style="width: 10%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Attribuutnaam</th>
+                  <th>Definitie</th>
+                  <th>Formaat</th>
+                  <th>Card</th>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Gebouw_aard">aard</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     <a class="link" href="#global_class_Gebouw_AardGebouw">Aard­Gebouw</a>
+                     </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Gebouw_gebouwNaam">gebouw­Naam</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     CHARACTERSTRING
+                     </td>
+                  <td>0 .. *</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Gebouw_gebouwStatus">gebouw­Status</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     <a class="link" href="#global_class_Gebouw_StatusGebouw">Status­Gebouw</a>
+                     </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Gebouw_gebouwType">gebouw­Type</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     <a class="link" href="#global_class_Gebouw_TypeGebouw">Type­Gebouw</a>
+                     </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Gebouw_geometrie">geometrie</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     GM_Surface
+                     </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Gebouw_oorspronkelijkBouwjaar">oorspronkelijk­Bouwjaar</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     Jaar
+                     </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Gebouw_relatieveHoogteligging">relatieve­Hoogteligging</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     Integer
+                     </td>
+                  <td>1</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+         <h5>Overzicht relaties  </h5>
+         
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Rol naam met kardinaliteiten</th>
+                  <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     
+                     <a class="link" href="#global_class_Gebouw_Verblijfsobject">Verblijfsobject</a>
+                     
+                     [ 0 .. * ]
+                     
+                     <a class="link" href="#detail_association_Gebouw_Verblijfsobject_gebouw">hoort­Bij: gebouw</a>
+                     
+                     Gebouw
+                     [ 1 .. * ]
+                     </td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td>
+                     
+                     <a class="link" href="#global_class_Gebouw_Bouwlaag">Bouwlaag</a>
+                     
+                     [ 1 ]
+                     
+                     <a class="link" href="#detail_association_Gebouw_Bouwlaag_gebouw">ligt­In: gebouw</a>
+                     
+                     Gebouw
+                     [ 1 ]
+                     </td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td>
+                     Gebouw
+                     is specialisatie van
+                     
+                     <a class="link" href="#global_class_Gebouw_Object">Object</a>
+                     
+                     </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         </section>
+      <a class="anchor" id="graph_EAID_B46B39B4_41A3_44fa_9FB0_878CBF30430C"></a><a class="anchor" id="global_class_Gebouw_Gebouwzone"></a><section id="global_class_Gebouw_Gebouwzone">
+         <h4>   Gebouwzone</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Gebouwzone</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>SOR</td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>SOR</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h5>Overzicht attributen  </h5>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 10%;"></colgroup>
+            <colgroup style="width: 10%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Attribuutnaam</th>
+                  <th>Definitie</th>
+                  <th>Formaat</th>
+                  <th>Card</th>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Gebouwzone_aard">aard</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     <a class="link" href="#global_class_Gebouw_AardGebouwzone">Aard­Gebouwzone</a>
+                     </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Gebouwzone_bouwjaar">bouwjaar</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     Jaar
+                     </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Gebouwzone_gebouwzoneStatus">gebouwzone­Status</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     <a class="link" href="#global_class_Gebouw_StatusGebouwzone">Status­Gebouwzone</a>
+                     </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Gebouwzone_gebouwzoneType">gebouwzone­Type</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     <a class="link" href="#global_class_Gebouw_TypeGebouwzone">Type­Gebouwzone</a>
+                     </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Gebouwzone_gebruiksoppervlakte">gebruiksoppervlakte</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     Integer
+                     </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Gebouwzone_geometrie">geometrie</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     GM_Surface
+                     </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Gebouwzone_geometrieOppervlakte">geometrie­Oppervlakte</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     GM_Surface
+                     </td>
+                  <td>0 .. 1</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+         <h5>Overzicht relaties  </h5>
+         
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Rol naam met kardinaliteiten</th>
+                  <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     Gebouwzone
+                     [ 1 ]
+                     
+                     <a class="link" href="#detail_association_Gebouw_Gebouwzone_bouwlaag">ligt­Op: bouwlaag</a>
+                     
+                     
+                     <a class="link" href="#global_class_Gebouw_Bouwlaag">Bouwlaag</a>
+                     
+                     [ 1 ]
+                     </td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td>
+                     Gebouwzone
+                     [ 0 .. * ]
+                     
+                     <a class="link" href="#detail_association_Gebouw_Gebouwzone_verblijfsobject">hoort­Bij: verblijfsobject</a>
+                     
+                     
+                     <a class="link" href="#global_class_Gebouw_Verblijfsobject">Verblijfsobject</a>
+                     
+                     [ 0 .. * ]
+                     </td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td>
+                     Gebouwzone
+                     is specialisatie van
+                     
+                     <a class="link" href="#global_class_Gebouw_Object">Object</a>
+                     
+                     </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         </section>
+      <a class="anchor" id="graph_EAID_D5403091_71E6_4f97_BAA5_647F8A48F466"></a><a class="anchor" id="global_class_Gebouw_Object"></a><section id="global_class_Gebouw_Object">
+         <h4>   Object</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Object</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>SOR</td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>Gebaseerd op de definitie in MIM 1.1 en in de Nederlandse Conceptenbibliotheek</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h5>Overzicht attributen  </h5>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 10%;"></colgroup>
+            <colgroup style="width: 10%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Attribuutnaam</th>
+                  <th>Definitie</th>
+                  <th>Formaat</th>
+                  <th>Card</th>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Object_domein">domein</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     URI
+                     </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Object_identificatie">identificatie</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     CHARACTERSTRING
+                     </td>
+                  <td>1</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+         <h5>Overzicht relaties  </h5>
+         
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Rol naam met kardinaliteiten</th>
+                  <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     Object
+                     [ 1 ]
+                     
+                     <a class="link" href="#detail_association_Gebouw_Object_registratiegegevens">geregistreerd­Met: registratiegegevens</a>
+                     
+                     
+                     <a class="link" href="#global_class_Gebouw_Registratiegegevens">Registratiegegevens</a>
+                     
+                     [ 1 ]
+                     </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         </section>
+      <a class="anchor" id="graph_EAID_D65F4C37_F1B2_466d_8769_B6CB4FB207B8"></a><a class="anchor" id="global_class_Gebouw_Verblijfsobject"></a><section id="global_class_Gebouw_Verblijfsobject">
+         <h4>   Verblijfsobject</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Verblijfsobject</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>SOR</td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>Artikel 1 Wet basisregistratie adressen en gebouwen.</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h5>Overzicht attributen  </h5>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 10%;"></colgroup>
+            <colgroup style="width: 10%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Attribuutnaam</th>
+                  <th>Definitie</th>
+                  <th>Formaat</th>
+                  <th>Card</th>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Verblijfsobject_feitelijkGebruik">feitelijk­Gebruik</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     <a class="link" href="#global_class_Gebouw_FeitelijkGebruik">Feitelijk­Gebruik</a>
+                     </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Verblijfsobject_gebruiksdoel">gebruiksdoel</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     <a class="link" href="#global_class_Gebouw_Gebruiksdoel">Gebruiksdoel</a>
+                     </td>
+                  <td>1 .. *</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Verblijfsobject_gebruiksoppervlakte">gebruiksoppervlakte</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     Integer
+                     </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Verblijfsobject_geometrie">geometrie</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     GM_Surface
+                     </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Verblijfsobject_verblijfsobjectStatus">verblijfsobject­Status</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     <a class="link" href="#global_class_Gebouw_StatusVerblijfsobject">Status­Verblijfsobject</a>
+                     </td>
+                  <td>1</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+         <h5>Overzicht relaties  </h5>
+         
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Rol naam met kardinaliteiten</th>
+                  <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     Verblijfsobject
+                     [ 0 .. * ]
+                     
+                     <a class="link" href="#detail_association_Gebouw_Verblijfsobject_gebouw">hoort­Bij: gebouw</a>
+                     
+                     
+                     <a class="link" href="#global_class_Gebouw_Gebouw">Gebouw</a>
+                     
+                     [ 1 .. * ]
+                     </td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td>
+                     
+                     <a class="link" href="#global_class_Gebouw_Gebouwzone">Gebouwzone</a>
+                     
+                     [ 0 .. * ]
+                     
+                     <a class="link" href="#detail_association_Gebouw_Gebouwzone_verblijfsobject">hoort­Bij: verblijfsobject</a>
+                     
+                     Verblijfsobject
+                     [ 0 .. * ]
+                     </td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td>
+                     Verblijfsobject
+                     is specialisatie van
+                     
+                     <a class="link" href="#global_class_Gebouw_Object">Object</a>
+                     
+                     </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         </section>
+      <a class="anchor" id="graph_EAID_DE9EC3F0_9223_454d_9419_F569078F95C6"></a><a class="anchor" id="global_class_Gebouw_Bouwlaag"></a><section id="global_class_Gebouw_Bouwlaag">
+         <h4>   Bouwlaag</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Bouwlaag</td>
+               </tr>
+               <tr>
+                  <th>Herkomst</th>
+                  <td>SOR</td>
+               </tr>
+               <tr>
+                  <th>Herkomst definitie</th>
+                  <td>Gebaseerd op de definitie van het begrip Bouwlaag (Ifc­Building­Storey) uit de concepten
+                     rondom Bouwwerkinformatiemodellen (BIM).</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h5>Overzicht attributen  </h5>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 10%;"></colgroup>
+            <colgroup style="width: 10%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Attribuutnaam</th>
+                  <th>Definitie</th>
+                  <th>Formaat</th>
+                  <th>Card</th>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Bouwlaag_bouwlaagnummer">bouwlaagnummer</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     Integer
+                     </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Bouwlaag_bouwlaagStatus">bouwlaag­Status</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     <a class="link" href="#global_class_Gebouw_StatusBouwlaag">Status­Bouwlaag</a>
+                     </td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td>
+                     <a class="link" href="#detail_attribute_Gebouw_Bouwlaag_geometrie">geometrie</a>
+                     </td>
+                  <td></td>
+                  <td>
+                     GM_Surface
+                     </td>
+                  <td>1</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         
+         <h5>Overzicht relaties  </h5>
+         
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Rol naam met kardinaliteiten</th>
+                  <th>Definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     Bouwlaag
+                     [ 1 ]
+                     
+                     <a class="link" href="#detail_association_Gebouw_Bouwlaag_gebouw">ligt­In: gebouw</a>
+                     
+                     
+                     <a class="link" href="#global_class_Gebouw_Gebouw">Gebouw</a>
+                     
+                     [ 1 ]
+                     </td>
+                  <td></td>
+               </tr>
+               <tr>
+                  <td>
+                     
+                     <a class="link" href="#global_class_Gebouw_Gebouwzone">Gebouwzone</a>
+                     
+                     [ 1 ]
+                     
+                     <a class="link" href="#detail_association_Gebouw_Gebouwzone_bouwlaag">ligt­Op: bouwlaag</a>
+                     
+                     Bouwlaag
+                     [ 1 ]
+                     </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         </section>
+      </section>
+   <section id="">
+      <h3>Referentielijsten   </h3>
+      <a class="anchor" id="graph_EAID_019E74A7_4A33_4688_9BFE_7FB051B3BFF9"></a><a class="anchor" id="global_class_Gebouw_TypeGebouw"></a><section id="global_class_Gebouw_TypeGebouw">
+         <h4>Referentielijst   Type­Gebouw</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Type­Gebouw</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h5>Overzicht relaties  </h5>
+         
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Supertype relaties</th>
+                  <th>Supertype definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     Type­Gebouw
+                     is specialisatie van
+                     
+                     <a class="link" href="#global_class_Gebouw_Begrip">Begrip</a>
+                     
+                     </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         </section>
+      <a class="anchor" id="graph_EAID_7A0779D7_3FCE_4fc8_94F2_FF33C77AEA5C"></a><a class="anchor" id="global_class_Gebouw_AardGebouw"></a><section id="global_class_Gebouw_AardGebouw">
+         <h4>Referentielijst   Aard­Gebouw</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Aard­Gebouw</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h5>Overzicht relaties  </h5>
+         
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Supertype relaties</th>
+                  <th>Supertype definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     Aard­Gebouw
+                     is specialisatie van
+                     
+                     <a class="link" href="#global_class_Gebouw_Begrip">Begrip</a>
+                     
+                     </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         </section>
+      <a class="anchor" id="graph_EAID_7F2AA05C_66A9_4e71_8CF4_DF7BB3C4D290"></a><a class="anchor" id="global_class_Gebouw_StatusGebouwzone"></a><section id="global_class_Gebouw_StatusGebouwzone">
+         <h4>Referentielijst   Status­Gebouwzone</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Status­Gebouwzone</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h5>Overzicht relaties  </h5>
+         
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Supertype relaties</th>
+                  <th>Supertype definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     Status­Gebouwzone
+                     is specialisatie van
+                     
+                     <a class="link" href="#global_class_Gebouw_Begrip">Begrip</a>
+                     
+                     </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         </section>
+      <a class="anchor" id="graph_EAID_9A4C602A_BA37_4aaa_9DF3_530A98063289"></a><a class="anchor" id="global_class_Gebouw_Gebruiksdoel"></a><section id="global_class_Gebouw_Gebruiksdoel">
+         <h4>Referentielijst   Gebruiksdoel</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Gebruiksdoel</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h5>Overzicht relaties  </h5>
+         
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Supertype relaties</th>
+                  <th>Supertype definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     Gebruiksdoel
+                     is specialisatie van
+                     
+                     <a class="link" href="#global_class_Gebouw_Begrip">Begrip</a>
+                     
+                     </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         </section>
+      <a class="anchor" id="graph_EAID_A6A5F3F7_06FD_4b72_A2A0_CC459F53DA1C"></a><a class="anchor" id="global_class_Gebouw_FeitelijkGebruik"></a><section id="global_class_Gebouw_FeitelijkGebruik">
+         <h4>Referentielijst   Feitelijk­Gebruik</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Feitelijk­Gebruik</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h5>Overzicht relaties  </h5>
+         
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Supertype relaties</th>
+                  <th>Supertype definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     Feitelijk­Gebruik
+                     is specialisatie van
+                     
+                     <a class="link" href="#global_class_Gebouw_Begrip">Begrip</a>
+                     
+                     </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         </section>
+      <a class="anchor" id="graph_EAID_B4B32132_7FCB_42dd_8973_59A8AA830B23"></a><a class="anchor" id="global_class_Gebouw_StatusBouwlaag"></a><section id="global_class_Gebouw_StatusBouwlaag">
+         <h4>Referentielijst   Status­Bouwlaag</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Status­Bouwlaag</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h5>Overzicht relaties  </h5>
+         
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Supertype relaties</th>
+                  <th>Supertype definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     Status­Bouwlaag
+                     is specialisatie van
+                     
+                     <a class="link" href="#global_class_Gebouw_Begrip">Begrip</a>
+                     
+                     </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         </section>
+      <a class="anchor" id="graph_EAID_CA78A79B_0EA2_462b_9F33_3989C79CA073"></a><a class="anchor" id="global_class_Gebouw_TypeGebouwzone"></a><section id="global_class_Gebouw_TypeGebouwzone">
+         <h4>Referentielijst   Type­Gebouwzone</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Type­Gebouwzone</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h5>Overzicht relaties  </h5>
+         
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Supertype relaties</th>
+                  <th>Supertype definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     Type­Gebouwzone
+                     is specialisatie van
+                     
+                     <a class="link" href="#global_class_Gebouw_Begrip">Begrip</a>
+                     
+                     </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         </section>
+      <a class="anchor" id="graph_EAID_D06FD490_4C6B_4f7b_B104_0D394D77CAFB"></a><a class="anchor" id="global_class_Gebouw_AardGebouwzone"></a><section id="global_class_Gebouw_AardGebouwzone">
+         <h4>Referentielijst   Aard­Gebouwzone</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Aard­Gebouwzone</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h5>Overzicht relaties  </h5>
+         
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Supertype relaties</th>
+                  <th>Supertype definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     Aard­Gebouwzone
+                     is specialisatie van
+                     
+                     <a class="link" href="#global_class_Gebouw_Begrip">Begrip</a>
+                     
+                     </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         </section>
+      <a class="anchor" id="graph_EAID_E30C6E3D_784D_4781_ABFA_3FA8130AAD2B"></a><a class="anchor" id="global_class_Gebouw_StatusVerblijfsobject"></a><section id="global_class_Gebouw_StatusVerblijfsobject">
+         <h4>Referentielijst   Status­Verblijfsobject</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Status­Verblijfsobject</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h5>Overzicht relaties  </h5>
+         
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Supertype relaties</th>
+                  <th>Supertype definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     Status­Verblijfsobject
+                     is specialisatie van
+                     
+                     <a class="link" href="#global_class_Gebouw_Begrip">Begrip</a>
+                     
+                     </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         </section>
+      <a class="anchor" id="graph_EAID_E374535A_A097_416d_8471_07D8AC129648"></a><a class="anchor" id="global_class_Gebouw_StatusGebouw"></a><section id="global_class_Gebouw_StatusGebouw">
+         <h4>Referentielijst   Status­Gebouw</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Status­Gebouw</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <h5>Overzicht relaties  </h5>
+         
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 50%;"></colgroup>
+            <colgroup style="width: 50%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Supertype relaties</th>
+                  <th>Supertype definitie</th>
+               </tr>
+               <tr>
+                  <td>
+                     Status­Gebouw
+                     is specialisatie van
+                     
+                     <a class="link" href="#global_class_Gebouw_Begrip">Begrip</a>
+                     
+                     </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+         
+         </section>
+      <a class="anchor" id="graph_EAID_F51424EA_FA00_4144_B72E_7ECCB9F369B6"></a><a class="anchor" id="global_class_Gebouw_Begrip"></a><section id="global_class_Gebouw_Begrip">
+         <h4>Referentielijst   Begrip</h4>
+         
+         <table style="width: 100%;">
+            <colgroup style="width: 30%;"></colgroup>
+            <colgroup style="width: 70%;"></colgroup>
+            <tbody>
+               <tr>
+                  <th>Naam</th>
+                  <td>Begrip</td>
+               </tr>
+               <tr>
+                  <th>Toelichting</th>
+                  <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+               </tr>
+            </tbody>
+         </table>
+         
+         <section id="">
+            <h5>Overzicht referentie elementen   </h5>
+            
+            <table style="width: 100%;">
+               <colgroup style="width: 30%;"></colgroup>
+               <colgroup style="width: 50%;"></colgroup>
+               <colgroup style="width: 10%;"></colgroup>
+               <colgroup style="width: 10%;"></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Referentie element</th>
+                     <th>Definitie</th>
+                     <th>Formaat</th>
+                     <th>Card</th>
+                  </tr>
+                  <tr>
+                     <td>
+                        code
+                        </td>
+                     <td></td>
+                     <td>
+                        CHARACTERSTRING
+                        </td>
+                     <td>1</td>
+                  </tr>
+                  <tr>
+                     <td>
+                        identificatie
+                        </td>
+                     <td></td>
+                     <td>
+                        URI
+                        </td>
+                     <td>1</td>
+                  </tr>
+               </tbody>
+            </table>
+            </section>
+         </section>
+      </section>
+   <section id="">
+      <h3>Enumeraties   </h3>
+      
+      <table style="width: 100%;">
+         <colgroup style="width: 30%;"></colgroup>
+         <colgroup style="width: 70%;"></colgroup>
+         <tbody>
+            <tr>
+               <th><a class="anchor" id="graph_EAID_59E6D5F4_50EB_4b0f_ACA0_7259CC87A1F8"></a><a class="anchor" id="global_class_Gebouw_Indicatie"></a><a class="link" href="#detail_class_Gebouw_Indicatie">Indicatie</a></th>
+               <td></td>
+            </tr>
+         </tbody>
+      </table>
+      </section>
+   <section id="">
+      <h3>Attribuut- en relatiesoort details  </h3>
+      
+      <section id="">
+         <h4>Objecttype details  </h4>
+         <a class="anchor" id="detail_class_Gebouw_Registratiegegevens"></a><section id="detail_class_Gebouw_Registratiegegevens">
+            <h5>   Registratiegegevens</h5>
+            <a class="anchor" id="detail_attribute_Gebouw_Registratiegegevens_beginGeldigheid"></a><section id="detail_attribute_Gebouw_Registratiegegevens_beginGeldigheid">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Registratiegegevens">Registratiegegevens</a> begin­Geldigheid</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>begin­Geldigheid</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>NEN3610</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>Datum</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_attribute_Gebouw_Registratiegegevens_eindGeldigheid"></a><section id="detail_attribute_Gebouw_Registratiegegevens_eindGeldigheid">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Registratiegegevens">Registratiegegevens</a> eind­Geldigheid</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>eind­Geldigheid</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>NEN3610</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>0 .. 1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>Datum</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_attribute_Gebouw_Registratiegegevens_eindRegistratie"></a><section id="detail_attribute_Gebouw_Registratiegegevens_eindRegistratie">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Registratiegegevens">Registratiegegevens</a> eind­Registratie</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>eind­Registratie</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>NEN3610</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>0 .. 1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>Datum­Tijd</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_attribute_Gebouw_Registratiegegevens_tijdstipRegistratie"></a><section id="detail_attribute_Gebouw_Registratiegegevens_tijdstipRegistratie">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Registratiegegevens">Registratiegegevens</a> tijdstip­Registratie</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>tijdstip­Registratie</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>NEN3610</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>Datum­Tijd</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_association_Gebouw_Registratiegegevens_bronentiteit"></a><section id="detail_association_Gebouw_Registratiegegevens_bronentiteit">
+               <h6>Relatiesoort details  <a href="#global_class_Gebouw_Registratiegegevens">Registratiegegevens</a> primaire­Bron</h6>
+               
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>primaire­Bron</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Gerelateerd objecttype</th>
+                        <td>
+                           <a class="link" href="#global_class_Gebouw_Bronentiteit">Bronentiteit</a>
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_association_Gebouw_Registratiegegevens_overheidsorganisatie"></a><section id="detail_association_Gebouw_Registratiegegevens_overheidsorganisatie">
+               <h6>Relatiesoort details  <a href="#global_class_Gebouw_Registratiegegevens">Registratiegegevens</a> toegeschreven­Aan</h6>
+               
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>toegeschreven­Aan</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Gerelateerd objecttype</th>
+                        <td>
+                           <a class="link" href="#global_class_Gebouw_Overheidsorganisatie">Overheidsorganisatie</a>
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            </section>
+         <a class="anchor" id="detail_class_Gebouw_Overheidsorganisatie"></a><section id="detail_class_Gebouw_Overheidsorganisatie">
+            <h5>   Overheidsorganisatie</h5>
+            <a class="anchor" id="detail_attribute_Gebouw_Overheidsorganisatie_code"></a><section id="detail_attribute_Gebouw_Overheidsorganisatie_code">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Overheidsorganisatie">Overheidsorganisatie</a> code</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>code</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>CHARACTERSTRING</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_attribute_Gebouw_Overheidsorganisatie_organisatieIdentificatienummer"></a><section id="detail_attribute_Gebouw_Overheidsorganisatie_organisatieIdentificatienummer">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Overheidsorganisatie">Overheidsorganisatie</a> organisatie-identificatienummer</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>organisatie-identificatienummer</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie materiële historie</th>
+                        <td>Ja</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>0 .. 1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>CHARACTERSTRING</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            </section>
+         
+         
+         <a class="anchor" id="detail_class_Gebouw_Brondocument"></a><section id="detail_class_Gebouw_Brondocument">
+            <h5>   Brondocument</h5>
+            <a class="anchor" id="detail_attribute_Gebouw_Brondocument_documentdatum"></a><section id="detail_attribute_Gebouw_Brondocument_documentdatum">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Brondocument">Brondocument</a> documentdatum</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>documentdatum</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>BAG</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>Datum</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_attribute_Gebouw_Brondocument_documentnummer"></a><section id="detail_attribute_Gebouw_Brondocument_documentnummer">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Brondocument">Brondocument</a> documentnummer</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>documentnummer</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>BAG</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>CHARACTERSTRING</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            </section>
+         
+         <a class="anchor" id="detail_class_Gebouw_Gebouw"></a><section id="detail_class_Gebouw_Gebouw">
+            <h5>   Gebouw</h5>
+            <a class="anchor" id="detail_attribute_Gebouw_Gebouw_aard"></a><section id="detail_attribute_Gebouw_Gebouw_aard">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Gebouw">Gebouw</a> aard</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>aard</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>
+                           <a class="link" href="#detail_class_Gebouw_AardGebouw">Aard­Gebouw</a>
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_attribute_Gebouw_Gebouw_gebouwNaam"></a><section id="detail_attribute_Gebouw_Gebouw_gebouwNaam">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Gebouw">Gebouw</a> gebouw­Naam</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>gebouw­Naam</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>0 .. *</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>CHARACTERSTRING</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_attribute_Gebouw_Gebouw_gebouwStatus"></a><section id="detail_attribute_Gebouw_Gebouw_gebouwStatus">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Gebouw">Gebouw</a> gebouw­Status</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>gebouw­Status</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>
+                           <a class="link" href="#detail_class_Gebouw_StatusGebouw">Status­Gebouw</a>
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_attribute_Gebouw_Gebouw_gebouwType"></a><section id="detail_attribute_Gebouw_Gebouw_gebouwType">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Gebouw">Gebouw</a> gebouw­Type</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>gebouw­Type</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>
+                           <a class="link" href="#detail_class_Gebouw_TypeGebouw">Type­Gebouw</a>
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_attribute_Gebouw_Gebouw_geometrie"></a><section id="detail_attribute_Gebouw_Gebouw_geometrie">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Gebouw">Gebouw</a> geometrie</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>geometrie</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>
+                           GM_Surface
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_attribute_Gebouw_Gebouw_oorspronkelijkBouwjaar"></a><section id="detail_attribute_Gebouw_Gebouw_oorspronkelijkBouwjaar">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Gebouw">Gebouw</a> oorspronkelijk­Bouwjaar</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>oorspronkelijk­Bouwjaar</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>Jaar</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_attribute_Gebouw_Gebouw_relatieveHoogteligging"></a><section id="detail_attribute_Gebouw_Gebouw_relatieveHoogteligging">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Gebouw">Gebouw</a> relatieve­Hoogteligging</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>relatieve­Hoogteligging</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>Integer</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            </section>
+         <a class="anchor" id="detail_class_Gebouw_Gebouwzone"></a><section id="detail_class_Gebouw_Gebouwzone">
+            <h5>   Gebouwzone</h5>
+            <a class="anchor" id="detail_attribute_Gebouw_Gebouwzone_aard"></a><section id="detail_attribute_Gebouw_Gebouwzone_aard">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Gebouwzone">Gebouwzone</a> aard</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>aard</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>
+                           <a class="link" href="#detail_class_Gebouw_AardGebouwzone">Aard­Gebouwzone</a>
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_attribute_Gebouw_Gebouwzone_bouwjaar"></a><section id="detail_attribute_Gebouw_Gebouwzone_bouwjaar">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Gebouwzone">Gebouwzone</a> bouwjaar</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>bouwjaar</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>Jaar</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_attribute_Gebouw_Gebouwzone_gebouwzoneStatus"></a><section id="detail_attribute_Gebouw_Gebouwzone_gebouwzoneStatus">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Gebouwzone">Gebouwzone</a> gebouwzone­Status</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>gebouwzone­Status</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>
+                           <a class="link" href="#detail_class_Gebouw_StatusGebouwzone">Status­Gebouwzone</a>
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_attribute_Gebouw_Gebouwzone_gebouwzoneType"></a><section id="detail_attribute_Gebouw_Gebouwzone_gebouwzoneType">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Gebouwzone">Gebouwzone</a> gebouwzone­Type</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>gebouwzone­Type</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>
+                           <a class="link" href="#detail_class_Gebouw_TypeGebouwzone">Type­Gebouwzone</a>
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_attribute_Gebouw_Gebouwzone_gebruiksoppervlakte"></a><section id="detail_attribute_Gebouw_Gebouwzone_gebruiksoppervlakte">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Gebouwzone">Gebouwzone</a> gebruiksoppervlakte</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>gebruiksoppervlakte</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>Integer</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_attribute_Gebouw_Gebouwzone_geometrie"></a><section id="detail_attribute_Gebouw_Gebouwzone_geometrie">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Gebouwzone">Gebouwzone</a> geometrie</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>geometrie</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>
+                           
+                           <p>Dit betreft een 2,5D geometrie. Een 2,5D geometrie is een uitbreiding op 2D geometrie
+                              door aan elke vastgelegde coördinaat een absolute hoogte (z-waarde) toe te voegen.</p>
+                           
+                           <p>Een 2,5D geometrie wordt in absolute zin in een drie dimensionale ruimte vastgelegd
+                              (dus met x,y en z coördinaten voor elk vastgelegd punt in een geometrie).</p>
+                           </td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>
+                           GM_Surface
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_attribute_Gebouw_Gebouwzone_geometrieOppervlakte"></a><section id="detail_attribute_Gebouw_Gebouwzone_geometrieOppervlakte">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Gebouwzone">Gebouwzone</a> geometrie­Oppervlakte</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>geometrie­Oppervlakte</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>0 .. 1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>
+                           GM_Surface
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_association_Gebouw_Gebouwzone_bouwlaag"></a><section id="detail_association_Gebouw_Gebouwzone_bouwlaag">
+               <h6>Relatiesoort details  <a href="#global_class_Gebouw_Gebouwzone">Gebouwzone</a> ligt­Op</h6>
+               
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>ligt­Op</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Gerelateerd objecttype</th>
+                        <td>
+                           <a class="link" href="#global_class_Gebouw_Bouwlaag">Bouwlaag</a>
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_association_Gebouw_Gebouwzone_verblijfsobject"></a><section id="detail_association_Gebouw_Gebouwzone_verblijfsobject">
+               <h6>Relatiesoort details  <a href="#global_class_Gebouw_Gebouwzone">Gebouwzone</a> hoort­Bij</h6>
+               
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>hoort­Bij</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>0 .. *</td>
+                     </tr>
+                     <tr>
+                        <th>Gerelateerd objecttype</th>
+                        <td>
+                           <a class="link" href="#global_class_Gebouw_Verblijfsobject">Verblijfsobject</a>
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            </section>
+         <a class="anchor" id="detail_class_Gebouw_Object"></a><section id="detail_class_Gebouw_Object">
+            <h5>   Object</h5>
+            <a class="anchor" id="detail_attribute_Gebouw_Object_domein"></a><section id="detail_attribute_Gebouw_Object_domein">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Object">Object</a> domein</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>domein</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>NEN3610</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>URI</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_attribute_Gebouw_Object_identificatie"></a><section id="detail_attribute_Gebouw_Object_identificatie">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Object">Object</a> identificatie</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>identificatie</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>NEN3610</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>CHARACTERSTRING</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_association_Gebouw_Object_registratiegegevens"></a><section id="detail_association_Gebouw_Object_registratiegegevens">
+               <h6>Relatiesoort details  <a href="#global_class_Gebouw_Object">Object</a> geregistreerd­Met</h6>
+               
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>geregistreerd­Met</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Gerelateerd objecttype</th>
+                        <td>
+                           <a class="link" href="#global_class_Gebouw_Registratiegegevens">Registratiegegevens</a>
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            </section>
+         <a class="anchor" id="detail_class_Gebouw_Verblijfsobject"></a><section id="detail_class_Gebouw_Verblijfsobject">
+            <h5>   Verblijfsobject</h5>
+            <a class="anchor" id="detail_attribute_Gebouw_Verblijfsobject_feitelijkGebruik"></a><section id="detail_attribute_Gebouw_Verblijfsobject_feitelijkGebruik">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Verblijfsobject">Verblijfsobject</a> feitelijk­Gebruik</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>feitelijk­Gebruik</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>
+                           <a class="link" href="#detail_class_Gebouw_FeitelijkGebruik">Feitelijk­Gebruik</a>
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_attribute_Gebouw_Verblijfsobject_gebruiksdoel"></a><section id="detail_attribute_Gebouw_Verblijfsobject_gebruiksdoel">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Verblijfsobject">Verblijfsobject</a> gebruiksdoel</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>gebruiksdoel</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>BAG</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1 .. *</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>
+                           <a class="link" href="#detail_class_Gebouw_Gebruiksdoel">Gebruiksdoel</a>
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_attribute_Gebouw_Verblijfsobject_gebruiksoppervlakte"></a><section id="detail_attribute_Gebouw_Verblijfsobject_gebruiksoppervlakte">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Verblijfsobject">Verblijfsobject</a> gebruiksoppervlakte</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>gebruiksoppervlakte</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>BAG</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>Integer</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_attribute_Gebouw_Verblijfsobject_geometrie"></a><section id="detail_attribute_Gebouw_Verblijfsobject_geometrie">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Verblijfsobject">Verblijfsobject</a> geometrie</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>geometrie</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>
+                           
+                           <p>Dit betreft een 2,5D geometrie. Een 2,5D geometrie is een uitbreiding op 2D geometrie
+                              door aan elke vastgelegde coördinaat een absolute hoogte (z-waarde) toe te voegen.</p>
+                           
+                           <p>Een 2,5D geometrie wordt in absolute zin in een drie dimensionale ruimte vastgelegd
+                              (dus met x,y en z coördinaten voor elk vastgelegd punt in een geometrie).</p>
+                           </td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>
+                           GM_Surface
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_attribute_Gebouw_Verblijfsobject_verblijfsobjectStatus"></a><section id="detail_attribute_Gebouw_Verblijfsobject_verblijfsobjectStatus">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Verblijfsobject">Verblijfsobject</a> verblijfsobject­Status</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>verblijfsobject­Status</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>
+                           <a class="link" href="#detail_class_Gebouw_StatusVerblijfsobject">Status­Verblijfsobject</a>
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_association_Gebouw_Verblijfsobject_gebouw"></a><section id="detail_association_Gebouw_Verblijfsobject_gebouw">
+               <h6>Relatiesoort details  <a href="#global_class_Gebouw_Verblijfsobject">Verblijfsobject</a> hoort­Bij</h6>
+               
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>hoort­Bij</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1 .. *</td>
+                     </tr>
+                     <tr>
+                        <th>Gerelateerd objecttype</th>
+                        <td>
+                           <a class="link" href="#global_class_Gebouw_Gebouw">Gebouw</a>
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            </section>
+         <a class="anchor" id="detail_class_Gebouw_Bouwlaag"></a><section id="detail_class_Gebouw_Bouwlaag">
+            <h5>   Bouwlaag</h5>
+            <a class="anchor" id="detail_attribute_Gebouw_Bouwlaag_bouwlaagnummer"></a><section id="detail_attribute_Gebouw_Bouwlaag_bouwlaagnummer">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Bouwlaag">Bouwlaag</a> bouwlaagnummer</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>bouwlaagnummer</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>Integer</td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_attribute_Gebouw_Bouwlaag_bouwlaagStatus"></a><section id="detail_attribute_Gebouw_Bouwlaag_bouwlaagStatus">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Bouwlaag">Bouwlaag</a> bouwlaag­Status</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>bouwlaag­Status</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>Een inhoudelijke toelichting op de toepassing van het informatie-element.</td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>
+                           <a class="link" href="#detail_class_Gebouw_StatusBouwlaag">Status­Bouwlaag</a>
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_attribute_Gebouw_Bouwlaag_geometrie"></a><section id="detail_attribute_Gebouw_Bouwlaag_geometrie">
+               <h6>Attribuutsoort details  <a href="#global_class_Gebouw_Bouwlaag">Bouwlaag</a> geometrie</h6>
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>geometrie</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Herkomst definitie</th>
+                        <td>SOR</td>
+                     </tr>
+                     <tr>
+                        <th>Toelichting</th>
+                        <td>
+                           
+                           <p>Dit betreft een 2,5D geometrie. Een 2,5D geometrie is een uitbreiding op 2D geometrie
+                              door aan elke vastgelegde coördinaat een absolute hoogte (z-waarde) toe te voegen.</p>
+                           
+                           <p>Een 2,5D geometrie wordt in absolute zin in een drie dimensionale ruimte vastgelegd
+                              (dus met x,y en z coördinaten voor elk vastgelegd punt in een geometrie).</p>
+                           </td>
+                     </tr>
+                     <tr>
+                        <th>Mogelijk geen waarde</th>
+                        <td>Nee</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Indicatie authentiek</th>
+                        <td>Authentiek</td>
+                     </tr>
+                     <tr>
+                        <th>Patroon</th>
+                        <td>De verzameling van waarden die gegevens van dit attribuutsoort kunnen hebben, dat
+                           wil zeggen het waardenbereik, uitgedrukt in een specifieke structuur.</td>
+                     </tr>
+                     <tr>
+                        <th>Type</th>
+                        <td>
+                           GM_Surface
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            <a class="anchor" id="detail_association_Gebouw_Bouwlaag_gebouw"></a><section id="detail_association_Gebouw_Bouwlaag_gebouw">
+               <h6>Relatiesoort details  <a href="#global_class_Gebouw_Bouwlaag">Bouwlaag</a> ligt­In</h6>
+               
+               
+               <table style="width: 100%;">
+                  <colgroup style="width: 30%;"></colgroup>
+                  <colgroup style="width: 70%;"></colgroup>
+                  <tbody>
+                     <tr>
+                        <th>Naam</th>
+                        <td>ligt­In</td>
+                     </tr>
+                     <tr>
+                        <th>Kardinaliteit</th>
+                        <td>1</td>
+                     </tr>
+                     <tr>
+                        <th>Gerelateerd objecttype</th>
+                        <td>
+                           <a class="link" href="#global_class_Gebouw_Gebouw">Gebouw</a>
+                           </td>
+                     </tr>
+                  </tbody>
+               </table>
+               </section>
+            </section>
+         </section>
+      
+      
+      
+      
+      
+      </section>
+</section>
+<section id="lis" class="normative">
+   <h2>Inhoud van waardenlijsten</h2>
+   <!--MIMCM-Gebouw-basismodel-1.0-0-20211117-20211117-152035 imvertor 1.65.2--><a class="anchor" id="graph_EAID_019E74A7_4A33_4688_9BFE_7FB051B3BFF9"></a><a class="anchor" id="detail_class_Gebouw_TypeGebouw"></a><section id="detail_class_Gebouw_TypeGebouw">
+      <h3>Referentielijst  Type­Gebouw</h3>
+      
+      <table style="width: 100%;" class="list">
+         <colgroup></colgroup>
+         <tbody>
+            <tr>
+               <td>
+                  
+                  
+                  
+                  <ol></ol>
+                  
+                  </td>
+            </tr>
+         </tbody>
+      </table>
+      
+      <table style="width: 100%;">
+         <tbody></tbody>
+      </table>
+      </section><a class="anchor" id="graph_EAID_7A0779D7_3FCE_4fc8_94F2_FF33C77AEA5C"></a><a class="anchor" id="detail_class_Gebouw_AardGebouw"></a><section id="detail_class_Gebouw_AardGebouw">
+      <h3>Referentielijst  Aard­Gebouw</h3>
+      
+      <table style="width: 100%;" class="list">
+         <colgroup></colgroup>
+         <tbody>
+            <tr>
+               <td>
+                  
+                  
+                  
+                  <ol></ol>
+                  
+                  </td>
+            </tr>
+         </tbody>
+      </table>
+      
+      <table style="width: 100%;">
+         <tbody></tbody>
+      </table>
+      </section><a class="anchor" id="graph_EAID_7F2AA05C_66A9_4e71_8CF4_DF7BB3C4D290"></a><a class="anchor" id="detail_class_Gebouw_StatusGebouwzone"></a><section id="detail_class_Gebouw_StatusGebouwzone">
+      <h3>Referentielijst  Status­Gebouwzone</h3>
+      
+      <table style="width: 100%;" class="list">
+         <colgroup></colgroup>
+         <tbody>
+            <tr>
+               <td>
+                  
+                  
+                  
+                  <ol></ol>
+                  
+                  </td>
+            </tr>
+         </tbody>
+      </table>
+      
+      <table style="width: 100%;">
+         <tbody></tbody>
+      </table>
+      </section><a class="anchor" id="graph_EAID_9A4C602A_BA37_4aaa_9DF3_530A98063289"></a><a class="anchor" id="detail_class_Gebouw_Gebruiksdoel"></a><section id="detail_class_Gebouw_Gebruiksdoel">
+      <h3>Referentielijst  Gebruiksdoel</h3>
+      
+      <table style="width: 100%;" class="list">
+         <colgroup></colgroup>
+         <tbody>
+            <tr>
+               <td>
+                  
+                  
+                  
+                  <ol></ol>
+                  
+                  </td>
+            </tr>
+         </tbody>
+      </table>
+      
+      <table style="width: 100%;">
+         <tbody></tbody>
+      </table>
+      </section><a class="anchor" id="graph_EAID_A6A5F3F7_06FD_4b72_A2A0_CC459F53DA1C"></a><a class="anchor" id="detail_class_Gebouw_FeitelijkGebruik"></a><section id="detail_class_Gebouw_FeitelijkGebruik">
+      <h3>Referentielijst  Feitelijk­Gebruik</h3>
+      
+      <table style="width: 100%;" class="list">
+         <colgroup></colgroup>
+         <tbody>
+            <tr>
+               <td>
+                  
+                  
+                  
+                  <ol></ol>
+                  
+                  </td>
+            </tr>
+         </tbody>
+      </table>
+      
+      <table style="width: 100%;">
+         <tbody></tbody>
+      </table>
+      </section><a class="anchor" id="graph_EAID_B4B32132_7FCB_42dd_8973_59A8AA830B23"></a><a class="anchor" id="detail_class_Gebouw_StatusBouwlaag"></a><section id="detail_class_Gebouw_StatusBouwlaag">
+      <h3>Referentielijst  Status­Bouwlaag</h3>
+      
+      <table style="width: 100%;" class="list">
+         <colgroup></colgroup>
+         <tbody>
+            <tr>
+               <td>
+                  
+                  
+                  
+                  <ol></ol>
+                  
+                  </td>
+            </tr>
+         </tbody>
+      </table>
+      
+      <table style="width: 100%;">
+         <tbody></tbody>
+      </table>
+      </section><a class="anchor" id="graph_EAID_CA78A79B_0EA2_462b_9F33_3989C79CA073"></a><a class="anchor" id="detail_class_Gebouw_TypeGebouwzone"></a><section id="detail_class_Gebouw_TypeGebouwzone">
+      <h3>Referentielijst  Type­Gebouwzone</h3>
+      
+      <table style="width: 100%;" class="list">
+         <colgroup></colgroup>
+         <tbody>
+            <tr>
+               <td>
+                  
+                  
+                  
+                  <ol></ol>
+                  
+                  </td>
+            </tr>
+         </tbody>
+      </table>
+      
+      <table style="width: 100%;">
+         <tbody></tbody>
+      </table>
+      </section><a class="anchor" id="graph_EAID_D06FD490_4C6B_4f7b_B104_0D394D77CAFB"></a><a class="anchor" id="detail_class_Gebouw_AardGebouwzone"></a><section id="detail_class_Gebouw_AardGebouwzone">
+      <h3>Referentielijst  Aard­Gebouwzone</h3>
+      
+      <table style="width: 100%;" class="list">
+         <colgroup></colgroup>
+         <tbody>
+            <tr>
+               <td>
+                  
+                  
+                  
+                  <ol></ol>
+                  
+                  </td>
+            </tr>
+         </tbody>
+      </table>
+      
+      <table style="width: 100%;">
+         <tbody></tbody>
+      </table>
+      </section><a class="anchor" id="graph_EAID_E30C6E3D_784D_4781_ABFA_3FA8130AAD2B"></a><a class="anchor" id="detail_class_Gebouw_StatusVerblijfsobject"></a><section id="detail_class_Gebouw_StatusVerblijfsobject">
+      <h3>Referentielijst  Status­Verblijfsobject</h3>
+      
+      <table style="width: 100%;" class="list">
+         <colgroup></colgroup>
+         <tbody>
+            <tr>
+               <td>
+                  
+                  
+                  
+                  <ol></ol>
+                  
+                  </td>
+            </tr>
+         </tbody>
+      </table>
+      
+      <table style="width: 100%;">
+         <tbody></tbody>
+      </table>
+      </section><a class="anchor" id="graph_EAID_E374535A_A097_416d_8471_07D8AC129648"></a><a class="anchor" id="detail_class_Gebouw_StatusGebouw"></a><section id="detail_class_Gebouw_StatusGebouw">
+      <h3>Referentielijst  Status­Gebouw</h3>
+      
+      <table style="width: 100%;" class="list">
+         <colgroup></colgroup>
+         <tbody>
+            <tr>
+               <td>
+                  
+                  
+                  
+                  <ol></ol>
+                  
+                  </td>
+            </tr>
+         </tbody>
+      </table>
+      
+      <table style="width: 100%;">
+         <tbody></tbody>
+      </table>
+      </section><a class="anchor" id="graph_EAID_F51424EA_FA00_4144_B72E_7ECCB9F369B6"></a><a class="anchor" id="detail_class_Gebouw_Begrip"></a><section id="detail_class_Gebouw_Begrip">
+      <h3>Referentielijst  Begrip</h3>
+      
+      <table style="width: 100%;" class="list">
+         <colgroup></colgroup>
+         <tbody>
+            <tr>
+               <td>
+                  
+                  
+                  
+                  <ol>
+                     
+                     <li>
+                        <b>code</b>: </li>
+                     
+                     <li>
+                        <b>identificatie</b>: </li>
+                     </ol>
+                  
+                  </td>
+            </tr>
+         </tbody>
+      </table>
+      
+      <table style="width: 100%;">
+         <tbody>
+            <tr>
+               <th>code</th>
+               <th>identificatie</th>
+            </tr>
+         </tbody>
+      </table>
+      </section><a class="anchor" id="graph_EAID_59E6D5F4_50EB_4b0f_ACA0_7259CC87A1F8"></a><a class="anchor" id="detail_class_Gebouw_Indicatie"></a><section id="detail_class_Gebouw_Indicatie">
+      <h3>Enumeratie details  Indicatie</h3>
+      
+      <table style="width: 100%;" class="list">
+         <colgroup></colgroup>
+         <tbody>
+            <tr>
+               <td></td>
+            </tr>
+         </tbody>
+      </table>
+      
+      <table style="width: 100%;" class="list">
+         <colgroup style="width: 40%;"></colgroup>
+         <colgroup style="width: 60%;"></colgroup>
+         <tbody>
+            <tr>
+               <th>Waarde</th>
+               <th>Omschrijving</th>
+            </tr>
+            <tr>
+               <th>ja</th>
+               <td></td>
+            </tr>
+            <tr>
+               <th>nee</th>
+               <td></td>
+            </tr>
+         </tbody>
+      </table>
+      </section>
+</section>
