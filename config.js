@@ -15,7 +15,7 @@ var respecConfig = {
   ],
   //shortName: "shortname",
   pubDomain: "disgeo",
-  github: "https://github.com/Geonovm/disgeo-demo-3b",
+  github: "https://github.com/Geonovum/disgeo-demo-3b",
   //previousPublishDate: "2017-01-01",
   //previousStatus: "GN-CV",
   //localBiblio: {
